@@ -12,7 +12,7 @@ from board import getAvailablePositions, getPositionBoard, setToken,\
 
 def whoGoesFirst():
     '''
-        We use randon fugenction to choose who goes first.
+        We randomly choose who goes first.
     '''
     if random.randint(0,1)==0:
         return 'computer' 
